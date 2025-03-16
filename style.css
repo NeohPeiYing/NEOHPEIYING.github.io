@@ -3,11 +3,11 @@ body {
 }
 
 .topnav {
-  background-color: white;
-  position: fixed;
+  overflow: hidden;
+  background-color: #ddd;
 }
 
-.topnav a{
+.topnav a {
   float: left;
   color: #ddd;
   text-align: center;
@@ -22,8 +22,8 @@ body {
 }
 
 .topnav a.active {
-  background-color: white;
-  color: #ddd;
+  background-color: #ddd;
+  color: white;
 }
 
 image {
