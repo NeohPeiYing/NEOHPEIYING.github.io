@@ -47,6 +47,54 @@
                  <figcaption>Greek Cuisine</figcaption>
 	         <figcaption>Thai Cuisine</figcaption>
 	 </section>
+
+		<form action="" method="POST">
+  <fieldset>
+    <legend>Personal Details</legend>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="phone">Telephone:</label>
+    <input type="tel" id="phone" name="phone" list="phone-list"><br>
+    <datalist id="phone-list">
+      <option value="+60">
+      <option value="+61">
+      <option value="+65">
+    </datalist><br><br>
+
+    <label for="website">Website:</label>
+    <input type="url" id="website" name="website" list="website-list"><br>
+    <datalist id="website-list">
+      <option value="http://">
+      <option value="https://">
+    </datalist>
+  </fieldset>
+
+  <fieldset>
+    <legend>Enquiry Information</legend>
+
+    <label for="enquiry-title">Title:</label>
+    <input type="text" id="enquiry-title" name="enquiry-title"><br><br>
+
+    <label for="description">Description:</label><br>
+    <textarea id="description" name="description" rows="4" cols="50"></textarea><br><br>
+
+    <label for="enquiry-type">Enquiry Type:</label>
+    <select id="enquiry-type" name="enquiry-type">
+      <option value="general">General</option>
+      <option value="feedback">Feedback</option>
+      <option value="support">Support</option>
+    </select>
+  </fieldset>
+
+  <br>
+  <button type="submit">Send Enquiry</button>
+</form>
+		
 	 <footer>
     <p><small>Copyright © 2025 NPY Recipes Website. All rights reserved</small></p>
     <a href="https://penangmaker.com/" target="_blank">This is a student assignment from Han Chiang High School Makers Club.</a>
