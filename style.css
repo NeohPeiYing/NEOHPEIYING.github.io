@@ -7,7 +7,7 @@ body {
    margin: 0;
    padding: 0;
    font-family: "Open Sans", sans-serif;
-   background: linear-gradient(to bottom, #e6f0f4, #FAF2F2);
+   background: linear-gradient(to bottom, #e6f0f4, white);
 }
 
 nav {
@@ -28,13 +28,13 @@ nav ul li {
 }
 
 nav a {
-   color: aquamarine;
+   color: rgb(127, 180, 255);
    text-decoration: underline;
    transition: color 0.3s ease;
 }
 
 nav a:hover {
-   color: aqua;
+   color: blue;
 }
 
 header {
@@ -80,10 +80,10 @@ footer p {
 }
 
 footer a {
-   color: aquamarine;
+   color: rgb(127, 180, 255);
    transition: color 0.3s ease;
 }
 
 footer a:hover {
-   color: aqua;
+   color: blue;
 }
