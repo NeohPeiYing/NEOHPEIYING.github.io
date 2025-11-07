@@ -1,7 +1,12 @@
+h1, h2, h3 {
+   font-family: "Poppins", sans-serif;
+   color: #222;
+}
+
 body {
    margin: 0;
    padding: 0;
-   font-family: Arial, sans-serif;
+   font-family: "Open Sans", sans-serif;
    background: linear-gradient(to bottom, #DBC6C1, #FAF2F2);
 }
 
@@ -24,7 +29,7 @@ nav ul li {
 
 nav a {
    color: aquamarine;
-   text-decoration: none;
+   text-decoration: underline;
    transition: color 0.3s ease;
 }
 
@@ -68,6 +73,10 @@ footer {
    padding: 10px;
    margin-top: 20px;
    text-align: center;
+}
+
+footer p {
+   text-decoration: underline;
 }
 
 footer a {
