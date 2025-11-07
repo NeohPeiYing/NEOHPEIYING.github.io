@@ -7,7 +7,7 @@ body {
    margin: 0;
    padding: 0;
    font-family: "Open Sans", sans-serif;
-   background: linear-gradient(to bottom, #DBC6C1, #FAF2F2);
+   background: linear-gradient(to bottom, #e6f0f4, #FAF2F2);
 }
 
 nav {
@@ -44,32 +44,32 @@ header {
 }
 
 main, section, article {
-   border: 1px solid black;
+   border: 1px solid rgb(146, 215, 223);
    padding: 10px;
    margin: 15px 0;
 }
 
 figure {
-   border: 1px solid gray;
+   border: 1px solid rgb(146, 215, 223);
    padding: 10px;
    margin: 10px auto;
    text-align: center;
 }
 
 form {
-   border: 1px solid black;
+   border: 1px solid rgb(146, 215, 223);
    padding: 15px;
    margin: 20px 0;
 }
 
 fieldset {
-   border: 1px solid gray;
+   border: 1px solid rgb(146, 215, 223);
    padding: 10px;
    margin-bottom: 15px;
 }
 
 footer {
-   border-top: 1px solid black;
+   border-top: 1px solid rgb(146, 215, 223);
    padding: 10px;
    margin-top: 20px;
    text-align: center;
